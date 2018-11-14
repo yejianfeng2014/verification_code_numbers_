@@ -1,13 +1,13 @@
 # verification_code_numbers_
 
 ## 项目介绍
-    第一阶段 实现纯数字验证码的识别 准确率达到85%以上
+    第一阶段 实现纯数字验证码的识别 准确率达到85%以上(cpu 训练1000多步，大概1小时左右)
     第二阶段 实现数字 大写字母 小写字母的验证码识别，准确率80%以上
 
 
 ## 目录结果介绍：
-    -model 存放纯数字识别的模型，由于模型较大，github 上传不上去，如果想使用训练好的模型，请去 百度网盘下载
-    https://pan.baidu.com/s/1snGNnoLwS1cbLZcFmOSOQA
+    -model 存放纯数字识别的模型，由于模型较大，github 上传不上去，如果想使用训练好的模型，请去 [百度网盘下载]
+    (https://pan.baidu.com/s/1snGNnoLwS1cbLZcFmOSOQA)
     -number_alphabet 数字和字母的验证识别目录
         --
     -image_Create.py 生成随机验证码
