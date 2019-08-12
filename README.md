@@ -25,6 +25,8 @@
            loss = tf.reduce_mean(tf.nn.sigmoid_cross_entropy_with_logits(logits=output, labels=y))
            
            https://chrome.google.com/webstore/detail/web-server-for-chrome/ofhbbkphhbklhfoeikjpcbhemlocgigb?hl=zh-cn
+           
+           https://blog.csdn.net/EI__Nino/article/details/69569000
 
 
 
