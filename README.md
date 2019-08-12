@@ -23,6 +23,8 @@
         1，loss = tf.reduce_mean(tf.nn.softmax_cross_entropy_with_logits(logits=output, labels=y))
             激活函数选择上面的这个时，loss 在训练中不断变大所以改为了下面的
            loss = tf.reduce_mean(tf.nn.sigmoid_cross_entropy_with_logits(logits=output, labels=y))
+           
+           https://chrome.google.com/webstore/detail/web-server-for-chrome/ofhbbkphhbklhfoeikjpcbhemlocgigb?hl=zh-cn
 
 
 
